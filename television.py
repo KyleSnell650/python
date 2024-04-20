@@ -16,7 +16,7 @@ class Television:
 
     def channel_down(self):
         '''
-        Method to decrease the tv channel.
+        Method to decrease the tv channel
         '''
         if self.__status:
             if self.__channel > Television.MIN_CHANNEL:
